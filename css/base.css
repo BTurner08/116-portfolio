@@ -73,23 +73,21 @@ p, label {
     flex-direction: column;
 }
 
-.navbar {
-    background-color: #07393C !important;
-    height: 2rem;
-    margin-top: 1rem;
-
-}
-.navbar-brand{
-    font-family: var( --lobster-font);
-    color: #90DDF0;
-    padding-right: 30rem;
-}
-.nav-link{
-    align-items: center;
-}
 footer {
-        background-color: #07393C;
-        height: 40px;
-        position: sticky;
-        top: 0px;
+    background-color: #07393C;
+    height: 43px;
+    position: sticky;
+    top: 0px;
+}
+
+.small-text {
+    font-size: 0.6rem;
+    color: gray; /* Optional: to make it less prominent */
+}
+
+.nav-options{
+    flex-wrap: wrap;
+}
+.nav-menu{
+    display: flex;
 }
